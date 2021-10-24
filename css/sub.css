@@ -1,0 +1,46 @@
+body
+{
+    margin:0;
+    padding:0;
+}
+.img
+{
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align:center;
+}
+.img .area2
+{
+    font-size:45px;
+    font-weight:100;
+}
+.img .area3
+{
+    padding:20px 0 0 0;
+    color:orangered;
+    font-size: 25px;
+}
+.img .area4
+{
+    padding:40px 0 160px 0;
+}
+.img .area4 span
+{
+    background:orangered;
+    padding:15px 35px;
+    color:white;
+    font-weight: bold;
+}
+.img a
+{
+    text-decoration: none;
+}
+.img a .area4 span:hover
+{
+    background:black;
+}
+.img .area5 i
+{
+    font-size:10px;
+}

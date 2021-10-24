@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body onload="object()">
+  <script>
+    function object()
+    {
+        var obj={
+          fristname:"ANMOL",
+          lastname:"MISHRA",
+          branch:"CSE",
+          rollno:19402060008,
+          name:{
+            college:"Goverment Polytechnic Adityapur",
+            session:"2019-2022",
+            future:{
+                course:"B-tech",
+                college:"Army Institute Of Techonlogy"
+            }
+          }
+        }
+        document.write(obj.fristname + obj.lastname + "<br>" + obj.rollno + "<br>" + obj.branch + "<br><br>" + obj.name.college + "<br>" +obj.name.future.college);
+        alert(obj.rollno);
+        console.log(obj);
+    }
+    function array()
+    {
+      var arr=["ANMOL","MISHRA","MADHU","KUMARI"];
+      arr.forEach(function(index)
+      {
+        document.write();
+      });
+    }
+  </script>
+</body>
+</html>

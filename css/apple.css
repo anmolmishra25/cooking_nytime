@@ -1,0 +1,276 @@
+body
+{
+    margin:0;
+    padding:0;
+    background-color:white;
+}
+.toparea
+{
+    width:100%;
+    background:#333333;
+    display: grid;
+    grid-template-columns:;
+    grid-template-rows: min-content;
+    color:#c0bebe;
+}
+.secondarea
+{
+    
+    background:#F5F5F7;
+    display: grid;
+    grid-template-columns:0.7fr 2fr 0.7fr ;
+    grid-template-rows:min-content;
+    
+}
+.secondarea .area2
+{
+    font-size:13px;
+    text-align:center;
+    color:#333333;
+    padding:10px 0;
+}
+.threearea
+{  
+    background:#ffffff;
+    display: grid;
+    grid-template-columns:0.7fr 2fr 0.7fr ;
+    grid-template-rows:min-content;
+    
+}
+.threearea .area2
+{
+    font-size:60px;
+    padding:50px 0 0 0;
+    font-weight:bolder;
+    text-align:center;
+}
+.threearea .area5
+{
+    font-size:30px;
+    text-align:center;
+}
+.threearea .area8
+{
+    font-size:18px;
+    color:#86868B;
+    text-align:center;
+}
+.threearea .area11
+{
+    font-size:22px;
+    text-align:center;
+    color:rgb(77, 77, 233);
+    padding:10px 0 0px 0px;
+}
+.threearea a:link , .threearea a:visited
+{
+    color:rgb(77, 77, 233);
+    text-decoration: none;
+    padding:0 0 0 40px;
+}
+.threearea a:hover
+{
+    text-decoration: underline;
+}
+.fourarea
+{
+    width:100%;
+    display: grid;
+    grid-template-columns:0.8fr 2fr 0.5fr;
+    grid-template-rows: min-content;
+    color:#c0bebe;
+}
+.fourarea .area2
+{
+    padding:30px 0;
+}
+.fivearea
+{
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content;
+}
+.fivearea .area1
+{
+    padding:20px 0 0 0;
+    background:black;
+}
+.sixarea
+{
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content min-content min-content min-content;
+}
+.sixarea .area0
+{
+    font-size:60px;
+    color:white;
+    margin:70px 0 0 0;
+    padding:10px 0 0 0;
+    font-weight:bolder;
+    text-align:center;
+    background:black;
+}
+.sixarea .area1
+{
+    font-size:30px;
+    text-align:center;
+    color:white;
+    background:black;
+}
+.sixarea .area2
+{
+    font-size:18px;
+    color:white;
+    text-align:center;
+    background: black;
+}
+.sixarea .area3
+{
+    font-size:22px;
+    text-align:center;
+    color:rgb(77, 77, 233);
+    padding:10px 0 0px 0px;
+    background: black;
+}
+.sixarea a:link , .sixarea a:visited
+{
+    color:rgb(77, 77, 233);
+    text-decoration: none;
+    padding:0 0 0 40px;
+}
+.sixarea a:hover
+{
+    text-decoration: underline;
+}
+.sixarea .area3
+{
+    padding:10px 0 0 0;
+}
+.sevenarea
+{
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content min-content min-content min-content;
+}
+.sevenarea .area0
+{
+    font-size:60px;
+    color:white;
+    margin:70px 0 0 0;
+    padding:10px 0 0 0;
+    font-weight:bolder;
+    text-align:center;
+    background:black;
+}
+.sevenarea .area1
+{
+    font-size:30px;
+    text-align:center;
+    color:white;
+    background:black;
+}
+.sevenarea .area3
+{
+    font-size:22px;
+    text-align:center;
+    color:rgb(77, 77, 233);
+    padding:10px 0 0px 0px;
+    background: black;
+}
+.sevenarea a:link , .sevenarea a:visited
+{
+    color:rgb(77, 77, 233);
+    text-decoration: none;
+    padding:0 0 0 40px;
+}
+.sevenarea a:hover
+{
+    text-decoration: underline;
+}
+.sevenarea .area3
+{
+    padding:10px 0 0 0;
+}
+@media screen and (max-width:1035px)
+{
+    .secondarea .area2
+    {
+        font-size:10px;
+    }
+    .threearea .area2
+    {
+        font-size:55px;
+    }
+    .threearea.area5
+    {
+        font-size:25px;
+    }
+    .threearea .area8
+    {
+        font-size:15px;
+    }
+    .threearea .area11
+    {
+        font-size:22px;
+        color:rgb(77, 77, 233);
+        padding:10px 0 0 0px;
+    }
+}
+@media screen and (max-width:800px)
+{
+    .secondarea .area2
+    {
+        font-size:8px;
+    }
+    .threearea .area2
+    {
+        font-size:50px;
+    }
+    .threearea.area5
+    {
+        font-size:20px;
+    }
+    .threearea .area8
+    {
+        font-size:12px;
+    }
+    .threearea .area11
+    {
+        font-size:22px;
+        color:rgb(77, 77, 233);
+        padding:10px 0 0 0px;
+    }
+}
+@media screen and (max-width:640px)
+{
+    .secondarea .area2
+    {
+        font-size:6px;
+    }
+    .threearea .area2
+    {
+        font-size:45px;
+    }
+    .threearea.area5
+    {
+        font-size:20px;
+    }
+    .threearea .area8
+    {
+        font-size:9px;
+    }
+    .threearea .area11
+    {
+        font-size:22px;
+        color:rgb(77, 77, 233);
+        padding:10px 0 0 0px;
+    }
+    .fourarea
+    {
+        grid-template-columns: 0fr 1fr 0fr;
+    }
+}

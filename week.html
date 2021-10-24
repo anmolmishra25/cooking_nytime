@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	<link rel="stylesheet" typw="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.1/css/all.css"/>
+    <link rel="stylesheet" href="css/week.css" type="text/css" />
+</head>
+<body>
+    <header>
+        <div class="head">
+            <div id="area1" onclick="fun();">
+                <i class="fa fa-bars"></i>
+            </div>
+            <div class="area2">
+                <img src="cooking.png"/>
+            </div>
+            <div id="area3" onclick="topdown()">
+                <i class="fa fa-search"></i>
+            </div>
+        </div>
+        <hr>
+        <div id="window">
+            <b>Cooking Nytime</b><br><br>
+            <ul>
+                <li>WeekNight</li>
+                <li>WEEKNIGHT</li>
+                <li>YOUR GROCERY LIS</li>
+                <li>Your Recipe Box</li>
+                <li>Subscribe</li>
+            </ul>
+            <span id="close" onclick="fun2()" style="cursor:pointer; font-size:30px;"><i class="fa fa-window-close"></i></span>
+        </div>
+        <div id="upper" style="text-align: center; padding-top: 20px;">
+            <div class="child" style="text-align: right;">
+                 <input type="search" placeholder="What would you like to cook ?"/>
+            </div>
+            <div class="child" style="text-align: left; margin-left:10px;">
+                <button>Search</button>
+            </div>
+            <div class="child" style="text-align: left; margin-left:10px; margin-top:5px;" onclick="topup()">
+                <i class="fa fa-window-close" style="font-size:25px;"></i> 
+            </div>
+            <!--input type="search" placeholder="Search Items"/>
+			<button>Search</button>
+            <i class="fa fa-window-close" style="font-size:25px;"></i-->    
+        </div>
+    </header>
+    <section>
+        <div class="menu1">
+            <div class="item">
+                Easy Weeknight Recipes
+            </div>
+            <div class="item1">
+                Whether you’ve got 10 minutes or an hour, we’ve got you covered with loads of delicious recipes for a school (or work) night.
+            </div>
+            <div class="item" style="text-decoration:underline; text-align:left; font-size:19px; width:calc(100%-10px); margin:0 10px 20px 10px;">
+                EASY CHICKEN RECIPES FOR BUSY WEEKNIGHTS
+            </div>
+            <div class="image">
+                <div class="img">
+                    <div class="child1">
+                        <img src="img15.jpg" alt=""  class="img-fluid"/>
+                    </div>
+                    <div class="child2" style="padding-left:10px; font-size: 18px; margin-bottom:20px; font-weight: bold; transition: all 0.5s;">
+                        Mayo-Marinated Chicken With Chimichurri<br>
+                        <span style="font-size:17px;font-weight: lighter; ">J. Kenji López-Alt</span><br><br>
+                        <span style="color:grey; font-weight: lighter; transition: all 0.5s;">1 min ago</span>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="child1">
+                        <img src="img16.jpg" alt="" / class="img-fluid">
+                    </div>
+                    <div class="child2" style="padding-left:10px; font-size: 18px; margin-bottom:20px; font-weight: bold; transition: all 0.5s;">
+                        Mayo-Marinated Chicken With Chimichurri<br>
+                        <span style="font-size:17px;font-weight: lighter; ">J. Kenji López-Alt</span><br><br>
+                        <span style="color:grey; font-weight: lighter; transition: all 0.5s;">1 min ago</span>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="child1">
+                        <img src="img17.jpg" alt=""  class="img-fluid"/>
+                    </div>
+                    <div class="child2" style="padding-left:10px; font-size: 18px; font-weight: bold; margin-bottom:20px; transition: all 0.5s;">
+                        Mayo-Marinated Chicken With Chimichurri<br>
+                        <span style="font-size:17px;font-weight: lighter; ">J. Kenji López-Alt</span><br><br>
+                        <span style="color:grey; font-weight: lighter; transition: all 0.5s;">1 min ago</span>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="child1">
+                        <img src="img18.jpg" alt=""  class="img-fluid" />
+                    </div>
+                    <div class="child2" style="padding-left:10px; font-size: 18px; font-weight: bold; margin-bottom:20px; transition: all 0.5s;">
+                        Mayo-Marinated Chicken With Chimichurri<br>
+                        <span style="font-size:17px;font-weight: lighter; ">J. Kenji López-Alt</span><br><br>
+                        <span style="color:grey; font-weight: lighter; transition: all 0.5s;">1 min ago</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="menu1">
+            <div class="item" style="text-decoration: underline; text-align:left; font-size:19px; width:calc(100%-10px); margin:50px 10px 20px 10px;">
+                OUR BEST WEEKNIGHT DINNER RECIPES
+            </div>
+            <div class="image">
+                <div class="img">
+                    <div class="child1">
+                        <img src="img19.jpg" alt=""  class="img-fluid"/>
+                    </div>
+                    <div class="child2" style="padding-left:10px; font-size: 18px; font-weight: bold; margin-bottom:20px; transition: all 0.5s;">
+                        Mayo-Marinated Chicken With Chimichurri<br>
+                        <span style="font-size:17px;font-weight: lighter; ">J. Kenji López-Alt</span><br><br>
+                        <span style="color:grey; font-weight: lighter; transition: all 0.5s;">1 min ago</span>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="child1">
+                        <img src="img20.jpg" alt=""  class="img-fluid"/>
+                    </div>
+                    <div class="child2" style="padding-left:10px; font-size: 18px; font-weight: bold; margin-bottom:20px; transition: all 0.5s;">
+                        Mayo-Marinated Chicken With Chimichurri<br>
+                        <span style="font-size:17px;font-weight: lighter; ">J. Kenji López-Alt</span><br><br>
+                        <span style="color:grey; font-weight: lighter; transition: all 0.5s;">1 min ago</span>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="child1">
+                        <img src="img21.jpg" alt=""  class="img-fluid"/>
+                    </div>
+                    <div class="child2" style="padding-left:10px; font-size: 18px; font-weight: bold; margin-bottom:20px; transition: all 0.5s;">
+                        Mayo-Marinated Chicken With Chimichurri<br>
+                        <span style="font-size:17px;font-weight: lighter; ">J. Kenji López-Alt</span><br><br>
+                        <span style="color:grey; font-weight: lighter; transition: all 0.5s;">1 min ago</span>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="child1">
+                        <img src="img22.jpg" alt=""  class="img-fluid"/>
+                    </div>
+                    <div class="child2" style="padding-left:10px; font-size: 18px; font-weight: bold; margin-bottom:20px; transition: all 0.5s;">
+                        Mayo-Marinated Chicken With Chimichurri<br>
+                        <span style="font-size:17px;font-weight: lighter; ">J. Kenji López-Alt</span><br><br>
+                        <span style="color:grey; font-weight: lighter; transition: all 0.5s;">1 min ago</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="menu1">
+            <div class="item" style="text-decoration: underline; text-align:left; font-size:19px; width:calc(100%-10px); margin:50px 10px 20px 10px;">
+                HEALTHY WEEKNIGHT DINNER RECIPES
+            </div>
+            <div class="image">
+                <div class="img">
+                    <div class="child1">
+                        <img src="img23.jpg" alt=""  class="img-fluid"/>
+                    </div>
+                    <div class="child2" style="padding-left:10px; font-size: 18px; font-weight: bold; margin-bottom:20px; transition: all 0.5s;">
+                        Mayo-Marinated Chicken With Chimichurri<br>
+                        <span style="font-size:17px;font-weight: lighter; ">J. Kenji López-Alt</span><br><br>
+                        <span style="color:grey; font-weight: lighter; transition: all 0.5s;">1 min ago</span>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="child1">
+                        <img src="img24.jpg" alt=""  class="img-fluid"/>
+                    </div>
+                    <div class="child2" style="padding-left:10px; font-size: 18px; font-weight: bold; margin-bottom:20px; transition: all 0.5s;">
+                        Mayo-Marinated Chicken With Chimichurri<br>
+                        <span style="font-size:17px;font-weight: lighter; ">J. Kenji López-Alt</span><br><br>
+                        <span style="color:grey; font-weight: lighter; transition: all 0.5s;">1 min ago</span>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="child1">
+                        <img src="img25.jpg" alt=""  class="img-fluid"/>
+                    </div>
+                    <div class="child2" style="padding-left:10px; font-size: 18px; font-weight: bold; margin-bottom:20px; transition: all 0.5s;">
+                        Mayo-Marinated Chicken With Chimichurri<br>
+                        <span style="font-size:17px;font-weight: lighter; ">J. Kenji López-Alt</span><br><br>
+                        <span style="color:grey; font-weight: lighter; transition: all 0.5s;">1 min ago</span>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="child1">
+                        <img src="img26.jpg" alt=""  class="img-fluid"/>
+                    </div>
+                    <div class="child2" style="padding-left:10px; font-size: 18px; font-weight: bold; margin-bottom:20px; transition: all 0.5s;">
+                        Mayo-Marinated Chicken With Chimichurri<br>
+                        <span style="font-size:17px;font-weight: lighter; ">J. Kenji López-Alt</span><br><br>
+                        <span style="color:grey; font-weight: lighter; transition: all 0.5s;">1 min ago</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="menu1" style="margin-bottom:50px;">
+            <div class="item" style="text-decoration: underline; text-align:left; font-size:19px; width:calc(100%-10px); margin:50px 10px 20px 10px;">
+                HEALTHY WEEKNIGHT DINNER RECIPES
+            </div>
+            <div class="image">
+                <div class="img">
+                    <div class="child1">
+                        <img src="img27.jpg" alt=""  class="img-fluid"/>
+                    </div>
+                    <div class="child2" style="padding-left:10px; font-size: 18px; font-weight: bold; margin-bottom:20px; transition: all 0.5s;">
+                        Mayo-Marinated Chicken With Chimichurri<br>
+                        <span style="font-size:17px;font-weight: lighter; ">J. Kenji López-Alt</span><br><br>
+                        <span style="color:grey; font-weight: lighter; transition: all 0.5s;">1 min ago</span>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="child1">
+                        <img src="img28.jpg" alt=""  class="img-fluid"/>
+                    </div>
+                    <div class="child2" style="padding-left:10px; font-size: 18px; font-weight: bold; margin-bottom:20px; transition: all 0.5s;">
+                        Mayo-Marinated Chicken With Chimichurri<br>
+                        <span style="font-size:17px;font-weight: lighter; ">J. Kenji López-Alt</span><br><br>
+                        <span style="color:grey; font-weight: lighter; transition: all 0.5s;">1 min ago</span>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="child1">
+                        <img src="img29.jpg" alt=""  class="img-fluid"/>
+                    </div>
+                    <div class="child2" style="padding-left:10px; font-size: 18px; font-weight: bold; margin-bottom:20px; transition: all 0.5s;">
+                        Mayo-Marinated Chicken With Chimichurri<br>
+                        <span style="font-size:17px;font-weight: lighter; ">J. Kenji López-Alt</span><br><br>
+                        <span style="color:grey; font-weight: lighter; transition: all 0.5s;">1 min ago</span>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="child1">
+                        <img src="img30.jpg" alt=""  class="img-fluid"/>
+                    </div>
+                    <div class="child2" style="padding-left:10px; font-size: 18px; font-weight: bold; margin-bottom:20px; transition: all 0.5s;">
+                        Mayo-Marinated Chicken With Chimichurri<br>
+                        <span style="font-size:17px;font-weight: lighter; ">J. Kenji López-Alt</span><br><br>
+                        <span style="color:grey; font-weight: lighter; transition: all 0.5s;">1 min ago</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="foot">
+            <div class="foot1">
+                <div class="foot11" style="padding:30px 0 0 15vw; font-size:20px; text-align:left;">
+                    <b>ABOUT US</b><br><br>
+                    <span style="font-size:20px;">NYT Cooking is a subscription service of The New York Times. It is a digital cookbook and cooking guide alike, available on all platforms, that helps home cooks of every level discover, save and organize the world’s best recipes, while also helping them become better, more competent cooks. Subscribe now for full access.</span>
+                </div>
+                <div class="foot12" style="padding:30px 0 50px 15vw; font-size:17px; text-align:left;">
+                    <ul>
+                        <li><a href="#">© 2021 Anmol Mishra</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+                <div class="foot2" style="padding:30px 0 0 20px; font-size:20px; text-align:left;">
+                    <b>LEARN MORE</b><br><br>
+                    <ul>
+                        <li><a href="#">Our Cooks</a></li>
+                        <li><a href="#">See Our Features</a></li>
+                        <li><a href="#">FQA</a></li>
+                        <li><a href="#">Tools For Saving</a></li>
+                        <li><a href="#">NYTtimes.com</a></li>
+                        <li><a href="#">Send Us Feedback</a></li>
+                    </ul>
+                </div>
+                <div class="foot3"style="padding:30px 0 0 20px; font-size:20px;" >
+                    <b>SHOP</b><br><br>
+                    <ul>
+                        <li><a href="#">Gift Subscription</a></li>
+                        <li><a href="#">Merchandise</a></li>
+                    </ul>
+                </div>
+        </div>
+    </footer>
+    <script>
+        function fun()
+   {
+       document.getElementById("window").style.left="0px";
+       document.getElementById("area1").style.display="block";
+   }
+   function fun2()
+   {
+       document.getElementById("window").style.left="-50vw";
+       document.getElementById("area1").style.display="block";
+   }
+   function topdown()
+   {
+            document.getElementById("upper").style.top="90px";
+            document.getElementById("upper").style.opacity="1"; 
+   }
+   function topup()
+   {
+            document.getElementById("upper").style.top="-140px";
+            document.getElementById("upper").style.opacity="0"; 
+   }
+   </script>	
+</body>
+</html>

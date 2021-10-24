@@ -1,0 +1,117 @@
+body
+{
+    margin:0;
+    padding:0;
+    background-color:white;
+}
+.toparea
+{
+    width:100%;
+    background:#333333;
+    display: grid;
+    grid-template-columns:;
+    grid-template-rows: min-content;
+    color:#c0bebe;
+}
+#top
+{
+    width:100%;
+    background:#333333;
+    display: grid;
+    grid-template-columns:;
+    grid-template-rows: min-content;
+    color:#c0bebe;
+}
+#con
+{
+    width:100%;
+    background:#642323;
+    display: grid;
+    grid-template-columns:;
+    grid-template-rows: min-content;
+    color:#c0bebe;
+}
+#more
+{
+    width:100%;
+    background:#622364;
+    display: grid;
+    grid-template-columns:;
+    grid-template-rows: min-content;
+    color:#c0bebe;
+}
+#more button
+{
+    background-color: rgb(11, 239, 255);
+    box-shadow:0px 0px 50px rgb(11, 239, 255);
+}
+.fivearea
+{
+    width:50%;
+    background:#333333;
+    display: grid;
+    grid-template-columns:;
+    grid-template-rows: min-content;
+    color:#c0bebe;
+    margin: 0 25%;
+}
+#secondarea
+{
+    width:100%;
+    background:#F5F5F7;
+    display: grid;
+    grid-template-columns:0.5fr 2fr 0.5fr;
+    grid-template-rows: min-content;
+}
+#secondarea .area2
+{
+    background:#F5F5F7;
+    padding:2% 0;
+    font-size:13px;
+    color:#444447;
+    text-align:center;
+}
+.threearea
+{
+    width:100%;
+    background:#ffffff;
+    display: grid;
+    padding:1% 0;
+    font-size:13px;
+    grid-template-columns:0.5fr 2fr 0.5fr;
+    grid-template-rows: min-content;
+    color:#444447;
+    text-align:center;
+}
+.fortharea
+{
+    width:100%;
+    background:#ffffff;
+    display: grid;
+    padding:1% 0;
+    font-size:13px;
+    grid-template-columns:0.5fr 2fr 0.5fr;
+    grid-template-rows: min-content;
+    color:#444447;
+}
+@media screen and (max-width:1035px)
+{
+    .secondarea .area2
+    {
+        font-size:10px;
+    }
+}
+@media screen and (max-width:800px)
+{
+    .secondarea .area2
+    {
+        font-size:8px;
+    }
+}
+@media screen and (max-width:640px)
+{
+    .secondarea .area2
+    {
+        font-size:6px;
+    }
+}

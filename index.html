@@ -1,0 +1,395 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Cooking Nytime</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" typw="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.1/css/all.css"/>
+	</head>
+	<body>
+		<header>
+			<div class="head" style="position: absolute; top:0;";>
+				<div id="area1" onclick="fun();">
+					<i class="fa fa-bars"></i>
+				</div>
+				<div class="area2">
+					<img src="cooking.png"/>
+				</div>
+				<div id="area3" onclick="topdown()">
+					<i class="fa fa-search"></i>
+				</div>
+			</div>
+			<hr>
+			<div id="window">
+				<b>Cooking Nytime</b><br><br>
+				<ul>
+					<a href="week.html"><li>WeekNight</li></a>
+					<a href="grocery.html"><li>YOUR GROCERY LIS</li></a>
+					<a href="recipe.html"><li>Your Recipe Box</li></a>
+					<a href="sub.html"><li>Subscribe</li></a>
+				</ul>
+				<span id="close" onclick="fun2()" style="cursor:pointer; font-size:30px;"><i class="fa fa-window-close"></i></span>
+			</div>
+			<div id="upper" style="text-align: center; padding-top: 20px;background-color: rgba(255, 255, 255, 0.644);">
+				<div class="child" style="text-align: right;">
+					 <input type="search" placeholder="What would you like to cook ?"/>
+				</div>
+				<div class="child" style="text-align: left; margin-left:10px;">
+					<button>Search</button>
+				</div>
+				<div class="child" style="text-align: left; margin-left:10px; margin-top:5px;" onclick="topup()">
+					<i class="fa fa-window-close" style="font-size:25px;"></i> 
+				</div>
+				<!--input type="search" placeholder="Search Items"/>
+				<button>Search</button>
+				<i class="fa fa-window-close" style="font-size:25px;"></i-->    
+			</div>
+		</header>
+		<section>
+			<video id="myvideo" class="img-fluid" style="position: relative; top:-90px;" loop s>
+				<source src="fod.mp4" type="video/mp4">
+			</video>
+			<!--div id="about">
+				<div id="ha" style="font-size: 30px;">
+					<span style="font-size: 50px; color:transparent; font-weight: bold	;">A</span>bout Us
+				</div>
+				<div id="hd">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. A neque consequuntur saepe corporis? Neque dicta modi nam culpa laudantium error asperiores placeat eum, officia voluptate alias maiores commodi optio vel?Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa quis similique blanditiis facere debitis doloremque praesentium cum vero, dolore minus sunt quibusdam, ex nam voluptates quos.<br> <br>Molestiae, sit quod?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi odio molestias iure eius libero pariatur saepe? Dolor voluptate tempore vero!
+				</div>
+			</div>
+			<div class="land">
+				<div class="image" style="background:url('merlin.jpg'); padding:50vh 0;">
+					
+				</div>
+			</div-->
+		</section>
+		<section>
+			<div class="recipe">
+				<div class="food1">
+				</div>
+				<div class="food1 before">
+					<div class="food2 center" style="background:red; color:white;margin:0 0 20px 0; padding:10px 20px; border-radius:50px 0;">
+						RECIPE OF THE DAY
+					</div>
+					<div class="food2 box1 center">
+						<span class="bold">Spiced Ginger<br> Shrimp With Burst Tomatoes</span><br>
+					</div>
+					<div class="food2 box2 center" style="margin:0 0 20px 0;">
+						<br>Serve this speedy, buttery one pan meal over rice or with some crusty bread.
+					</div>
+					<div class="food2 img2 center">
+						<img src="pro.jpg" id="circle"/><br><br>
+						Vallery Lomas
+					</div>
+				</div>
+				<div class="food1">	
+				</div>
+
+			</div>
+			<!--div class="conatiner-fluid">
+				<div class="row">
+					<div class="box col-12">		
+						<div class="row">
+							<div  class="col-3">
+					
+							</div>
+							<div class="col-6">
+								<div class="row">
+									<div class="before col-12">
+										<div class="row">
+											<div class="col-3">
+												
+											</div>
+											<div class="col-6" style="background:red; color:white; padding:10px 20px; border-radius:50px 0;">
+												RECIPE OF THE DAY
+											</div>
+											<div class="col-3">
+											</div>
+										</div>		
+									</div>
+									<div class="box1 col-12">
+										<span class="bold">Spiced Ginger<br> Shrimp With Burst Tomatoes</span><br>
+									</div>
+									<div class="box2 col-12">
+										<br>Serve this speedy, buttery one pan meal over rice or with some crusty bread.
+									</div>
+									<div class="img2 col-12">
+										<img src="pro.jpg" id="circle"/><br><br>
+										Vallery Lomas
+									</div>
+								</div>
+							</div>
+							<div class="col-3">
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div-->
+		</section>
+		<hr>
+		<section>
+			<div class="container-fluid">
+				<div class="col-12 menu1">
+					What to Cook This Week
+				</div>
+				<div class="col-12 menu2">
+					RECIPES, GUIDES AND MORE FOR THE WEEK OF SEPTEMBER 12TH
+				</div>
+			</div>
+			<div class="parent">
+				<div class="child1">
+					<div class="child2 center">
+						<img src="img1.jpg"/>
+					</div>
+					<div class="child2 center" style="padding:10px 2vw 10px 2vw;">
+						<b>Image for Roasted Lemony Fish With Brown Butter, Capers and Nori</b><br>
+						<SpanMelissa Clark, Danielle Alvarez</Span>
+					</div>
+					<div class="child2 center" style="color:grey;font-size: 14px;">
+						30 min ago
+					</div>
+				</div>
+				<div class="child1">
+					<div class="child2 center">
+						<img src="img2.jpg"/>
+					</div>
+					<div class="child2 center" style="padding:10px 2vw 10px 2vw;">
+						<b>Image for Roasted Lemony Fish With Brown Butter, Capers and Nori</b><br>
+						<SpanMelissa Clark, Danielle Alvarez</Span>
+					</div>
+					<div class="child2 center" style="color:grey;font-size: 14px;">
+						30 min ago
+					</div>
+				</div>
+				<div class="child1">
+					<div class="child2 center">
+						<img src="img3.jpg"/>
+					</div>
+					<div class="child2 center" style="padding:10px 2vw 10px 2vw;">
+						<b>Image for Roasted Lemony Fish With Brown Butter, Capers and Nori</b><br>
+						<SpanMelissa Clark, Danielle Alvarez</Span>
+					</div>
+					<div class="child2 center" style="color:grey;font-size: 14px;">
+						30 min ago
+					</div>
+				</div>
+				<div class="child1">
+					<div class="child2 center">
+						<img src="img4.jpg"/>
+					</div>
+					<div class="child2 center" style="padding:10px 2vw 10px 2vw;">
+						<b>Image for Roasted Lemony Fish With Brown Butter, Capers and Nori</b><br>
+						<SpanMelissa Clark, Danielle Alvarez</Span>
+					</div>
+					<div class="child2 center" style="color:grey;font-size: 14px;">
+						30 min ago
+					</div>
+				</div>
+				<div class="child1">
+					<div class="child2 center">
+						<img src="img5.jpg"/>
+					</div>
+					<div class="child2 center" style="padding:10px 2vw 10px 2vw;">
+						<b>Image for Roasted Lemony Fish With Brown Butter, Capers and Nori</b><br>
+						<SpanMelissa Clark, Danielle Alvarez</Span>
+					</div>
+					<div class="child2 center" style="color:grey;font-size: 14px;">
+						30 min ago
+					</div>
+				</div>
+				<div class="child1">
+					<div class="child2 center">
+						<img src="img6.jpg"/>
+					</div>
+					<div class="child2 center" style="padding:10px 2vw 10px 2vw;">
+						<b>Image for Roasted Lemony Fish With Brown Butter, Capers and Nori</b><br>
+						<SpanMelissa Clark, Danielle Alvarez</Span>
+					</div>
+					<div class="child2 center" style="color:grey;font-size: 14px;">
+						30 min ago
+					</div>
+				</div>
+				<div class="child1">
+					<div class="child2 center">
+						<img src="img7.jpg"/>
+					</div>
+					<div class="child2 center" style="padding:10px 2vw 10px 2vw;">
+						<b>Image for Roasted Lemony Fish With Brown Butter, Capers and Nori</b><br>
+						<SpanMelissa Clark, Danielle Alvarez</Span>
+					</div>
+					<div class="child2 center" style="color:grey;font-size: 14px;">
+						30 min ago
+					</div>
+				</div>
+				<div class="child1">
+					<div class="child2 center">
+						<img src="img8.jpg"/>
+					</div>
+					<div class="child2 center" style="padding:10px 2vw 10px 2vw;">
+						<b>Image for Roasted Lemony Fish With Brown Butter, Capers and Nori</b><br>
+						<SpanMelissa Clark, Danielle Alvarez</Span>
+					</div>
+					<div class="child2 center" style="color:grey;font-size: 14px;">
+						30 min ago
+					</div>
+				</div>
+			</div>
+		<section>	
+			<div class="four">
+				<div class="four1">
+					<b>More From Our Editors</b><br>
+					<span style="color:grey;">Weeknight suppers, seasonal favorites and other ideas for this week.</span>
+				</div>
+				<div class="four2">
+					<div class="four3 center">
+						<div class="four4" style="margin:0 11vw 10px 11vw;">
+							<img src="img9.jpg"/>
+						</div>
+						<div class="four4" style="font-size:25px;">
+							53 Weekend Breakfast Ideas.
+						</div>
+						<div class="four3">
+							<a href="#">Save All 35 Recipes</a>
+						</div>
+					</div>	
+					<div class="four3 center">
+						<div class="four4" style="margin:0 11vw 10px 11vw;">
+							<img src="img10.jpg"/>
+						</div>
+						<div class="four4" style="font-size:25px;">
+							53 Weekend Breakfast Ideas.
+						</div>
+						<div class="four3">
+							<a href="#">Save All 35 Recipes</a>
+						</div>
+					</div>		
+				</div>
+				<div class="four2">
+					<div class="four3 center">
+						<div class="four4" style="margin:0 11vw 10px 11vw;">
+							<img src="img11.jpg"/>
+						</div>
+						<div class="four4" style="font-size:25px;">
+							53 Weekend Breakfast Ideas.
+						</div>
+						<div class="four3">
+							<a href="#">Save All 35 Recipes</a>
+						</div>
+					</div>
+					<div class="four3 center">
+						<div class="four4" style="margin:0 11vw 10px 11vw;">
+							<img src="img12.jpg"/>
+						</div>
+						<div class="four4" style="font-size:25px;">
+							53 Weekend Breakfast Ideas.
+						</div>
+						<div class="four3">
+							<a href="#">Save All 35 Recipes</a>
+						</div>
+					</div>	
+				</div>
+				<div class="four2">
+					<div class="four3 center">
+						<div class="four4" style="margin:0 11vw 10px 11vw;">
+							<img src="img13.jpg"/>
+						</div>
+						<div class="four4" style="font-size:25px;">
+							53 Weekend Breakfast Ideas.
+						</div>
+						<div class="four3">
+							<a href="#">Save All 35 Recipes</a>
+						</div>
+					</div>	
+					<div class="four3 center">
+						<div class="four4" style="margin:0 11vw 10px 11vw;">
+							<img src="img14.jpg"/>
+						</div>
+						<div class="four4" style="font-size:25px;">
+							53 Weekend Breakfast Ideas.
+						</div>
+						<div class="four3">
+							<a href="#">Save All 35 Recipes</a>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="foot">
+				<div class="foot1">
+					<div class="foot11" style="padding:30px 0 0 15vw; font-size:20px; text-align:left;">
+						<b>ABOUT US</b><br><br>
+						<span style="font-size:20px;">NYT Cooking is a subscription service of The New York Times. It is a digital cookbook and cooking guide alike, available on all platforms, that helps home cooks of every level discover, save and organize the world’s best recipes, while also helping them become better, more competent cooks. Subscribe now for full access.</span>
+					</div>
+					<div class="foot12" style="padding:30px 0 50px 15vw; font-size:17px; text-align:left;">
+						<ul>
+							<li><a href="#">© 2021 Anmol Mishra</a></li>
+							<li><a href="#">Terms of Service</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+						</ul>
+					</div>
+				</div>
+					<div class="foot2" style="padding:30px 0 0 20px; font-size:20px; text-align:left;">
+						<b>LEARN MORE</b><br><br>
+						<ul>
+							<li><a href="#">Our Cooks</a></li>
+							<li><a href="#">See Our Features</a></li>
+							<li><a href="#">FQA</a></li>
+							<li><a href="#">Tools For Saving</a></li>
+							<li><a href="#">NYTtimes.com</a></li>
+							<li><a href="#">Send Us Feedback</a></li>
+						</ul>
+					</div>
+					<div class="foot3"style="padding:30px 0 0 20px; font-size:20px;" >
+						<b>SHOP</b><br><br>
+						<ul>
+							<li><a href="#">Gift Subscription</a></li>
+							<li><a href="#">Merchandise</a></li>
+						</ul>
+					</div>
+			</div>
+		</footer>
+		<script>
+		var decide=true;
+			 function fun()
+        {
+            document.getElementById("window").style.left="0px";
+            document.getElementById("click").style.display="block";
+        }
+        function fun2()
+        {
+            document.getElementById("window").style.left="-50vw";
+            document.getElementById("click").style.display="block";
+        }
+		function m31()
+		{
+			document.getElementById("m31").style.opacity="0";
+			document.getElementById("m31").style.zIndex="100";
+			document.getElementById("about").style.top="200px";
+		}
+		function topdown()
+   		{
+			if(decide==true)
+			{
+				document.getElementById("upper").style.top="70px";
+				document.getElementById("upper").style.opacity="1";
+				decide=false;
+			}
+			else
+			{
+				document.getElementById("upper").style.top="-140px";
+				document.getElementById("upper").style.opacity="1";
+				decide=true;
+			} 
+   		}
+		
+   function topup()
+   {
+            document.getElementById("upper").style.top="-140px";
+            document.getElementById("upper").style.opacity="0"; 
+   }
+
+		</script>			
+	</body>
+</html>
