@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup</title>
+  <link rel="stylesheet" href="css/signup.css" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	<link rel="stylesheet" typw="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.1/css/all.css"/>
+</head>
+<body>
+  <header>
+    <div class="head" style="position: absolute; top:0;";>
+        <div id="area1" onclick="fun();">
+            <i class="fa fa-bars"></i>
+        </div>
+        <div class="area2">
+            <img src="cooking.png"/>
+        </div>
+        <div id="area3" onclick="topdown()">
+            <i class="fa fa-search"></i>
+        </div>
+    </div>
+    <hr>
+    <div id="window">
+        <b>Cooking Nytime</b><br><br>
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="week.html"><li>WeekNight</li></a>
+            <a href="log.html"><li>login</li></a>
+            <a href="sign.html"><li>signup</li></a>
+            <a href="sub.html"><li>Subscribe</li></a>
+        </ul>
+        <span id="close" onclick="fun2()" style="cursor:pointer; font-size:30px;"><i class="fa fa-window-close"></i></span>
+    </div>
+    <div id="upper" style="text-align: center; padding-top: 20px;background-color: rgba(255, 255, 255, 0.644);">
+        <div class="child" style="text-align: right;">
+             <input type="search" placeholder="What would you like to cook ?"/>
+        </div>
+        <div class="child" style="text-align: left; margin-left:10px;">
+            <button>Search</button>
+        </div>
+        <div class="child" style="text-align: left; margin-left:10px; margin-top:5px;" onclick="topup()">
+            <i class="fa fa-window-close" style="font-size:25px;"></i> 
+        </div>
+        <!--input type="search" placeholder="Search Items"/>
+        <button>Search</button>
+        <i class="fa fa-window-close" style="font-size:25px;"></i-->    
+    </div>
+</header>
+<section>
+  <div class="form">
+    <div class="area1">
+
+    </div>
+    <div class="area2">
+      <div class="ip">
+        <img src="sig.jpg" class="img-fluid"/>
+      </div>
+      <div class="fill">
+        <span style="font-size:30px; font-weight: bold;">Enter your email address
+        to log in or create an account.</span><br><br>
+        <input type="email" placeholder="email address" /><br><br>
+        <input type="password" placeholder="password" /><br><br>
+        <input type="password" placeholder="confirm password" /><br><br>
+        <button style="background-color: orangered; color:white;">Continue</button><br><br>
+        <span style="font-size: 15px;">By continuing, you agree to the Terms of Service and acknowledge our Privacy Policy.</span>
+      </div>
+    </div>
+    <div class="area3">
+
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="foot">
+      <div class="foot1">
+          <div class="foot11" style="padding:30px 0 0 15vw; font-size:20px; text-align:left;">
+              <b>ABOUT US</b><br><br>
+              <span style="font-size:20px;">NYT Cooking is a subscription service of The New York Times. It is a digital cookbook and cooking guide alike, available on all platforms, that helps home cooks of every level discover, save and organize the world’s best recipes, while also helping them become better, more competent cooks. Subscribe now for full access.</span>
+          </div>
+          <div class="foot12" style="padding:30px 0 50px 15vw; font-size:17px; text-align:left;">
+              <ul>
+                  <li><a href="#">© 2021 Anmol Mishra</a></li>
+                  <li><a href="#">Terms of Service</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+              </ul>
+          </div>
+      </div>
+          <div class="foot2" style="padding:30px 0 0 20px; font-size:20px; text-align:left;">
+              <b>LEARN MORE</b><br><br>
+              <ul>
+                  <li><a href="#">Our Cooks</a></li>
+                  <li><a href="#">See Our Features</a></li>
+                  <li><a href="#">FQA</a></li>
+                  <li><a href="#">Tools For Saving</a></li>
+                  <li><a href="#">NYTtimes.com</a></li>
+                  <li><a href="#">Send Us Feedback</a></li>
+              </ul>
+          </div>
+          <div class="foot3"style="padding:30px 0 0 20px; font-size:20px;" >
+              <b>SHOP</b><br><br>
+              <ul>
+                  <li><a href="#">Gift Subscription</a></li>
+                  <li><a href="#">Merchandise</a></li>
+              </ul>
+          </div>
+  </div>
+</footer>
+<script>
+  var decide=true;
+       function fun()
+  {
+      document.getElementById("window").style.left="0px";
+      document.getElementById("click").style.display="block";
+  }
+  function fun2()
+  {
+      document.getElementById("window").style.left="-50vw";
+      document.getElementById("click").style.display="block";
+  }
+  function m31()
+  {
+      document.getElementById("m31").style.opacity="0";
+      document.getElementById("m31").style.zIndex="100";
+      document.getElementById("about").style.top="200px";
+  }
+  function topdown()
+     {
+      if(decide==true)
+      {
+          document.getElementById("upper").style.top="70px";
+          document.getElementById("upper").style.opacity="1";
+          decide=false;
+      }
+      else
+      {
+          document.getElementById("upper").style.top="-140px";
+          document.getElementById("upper").style.opacity="1";
+          decide=true;
+      } 
+     }
+  
+function topup()
+{
+      document.getElementById("upper").style.top="-140px";
+      document.getElementById("upper").style.opacity="0"; 
+}
+
+  </script>
+</body>
+</html>
